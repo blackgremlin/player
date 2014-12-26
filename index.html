@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/common.css" rel="stylesheet">
+    <title>Super puper mega player</title>
+</head>
+<body>
+
+<div class="player">
+    <span class="btn btn-default glyphicon glyphicon-backward"></span>
+    <span class="btn btn-default glyphicon glyphicon-play play-btn"></span>
+    <span class="btn btn-default glyphicon glyphicon-forward"></span>
+    <div class="bars">
+        <div class="progress" id="slider">
+            <div class="progress-bar progress-bar-success main-bar progress-bar-striped" style="width: 0" id="current-position"></div>
+        </div>
+        <div class="progress load-bar">
+            <div class="progress-bar progress-bar-info" style="width: 0" id="load-position"></div>
+        </div>
+    </div>
+    <div class="sound-volume">
+        <span class="btn glyphicon glyphicon-volume-up"></span>
+        <div class="volume progress" id="volume">
+            <div class="progress-bar" style="width: 100%" id="volume-position"></div>
+        </div>
+    </div>
+    <div class="time">
+        <span class="small start-time">00:00</span>
+        <span class="small"> | </span>
+        <span class="small length-time">00:00</span>
+    </div>
+    <ul class="list-group" id="playlist">
+        <li class="list-group-item">
+            <span class="song-name">Dapibus ac facilisis in</span>
+            <span class="small song-time">04:12</span>
+        </li>
+        <li class="list-group-item">
+            <span class="song-name">Dapibus ac facilisis in</span>
+            <span class="small song-time">04:12</span>
+        </li>
+        <li class="list-group-item active">
+            <span class="song-name">Dapibus ac facilisis in</span>
+            <span class="small song-time">04:12</span>
+        </li>
+        <li class="list-group-item">
+            <span class="song-name">Dapibus ac facilisis in</span>
+            <span class="small song-time">04:12</span>
+        </li>
+        <li class="list-group-item">
+            <span class="song-name">Dapibus ac facilisis in</span>
+            <span class="small song-time">04:12</span>
+        </li>
+    </ul>
+</div>
+
+<script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/player.js"></script>
+</body>
+</html>
